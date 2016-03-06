@@ -13,6 +13,8 @@
 		A7F1D39D1C8ADDEF00A14E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F1D39B1C8ADDEF00A14E91 /* Main.storyboard */; };
 		A7F1D39F1C8ADDEF00A14E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F1D39E1C8ADDEF00A14E91 /* Assets.xcassets */; };
 		A7F1D3A21C8ADDEF00A14E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F1D3A01C8ADDEF00A14E91 /* LaunchScreen.storyboard */; };
+		A7F1D3AA1C8AE0AC00A14E91 /* Test.html in Resources */ = {isa = PBXBuildFile; fileRef = A7F1D3A91C8AE0AC00A14E91 /* Test.html */; };
+		A7F1D3AC1C8AE84A00A14E91 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F1D3AB1C8AE84A00A14E91 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A7F1D39E1C8ADDEF00A14E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F1D3A11C8ADDEF00A14E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F1D3A31C8ADDEF00A14E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F1D3A91C8AE0AC00A14E91 /* Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Test.html; sourceTree = "<group>"; };
+		A7F1D3AB1C8AE84A00A14E91 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F1D3AC1C8AE84A00A14E91 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 		A7F1D3861C8ADDEF00A14E91 = {
 			isa = PBXGroup;
 			children = (
+				A7F1D3AB1C8AE84A00A14E91 /* JavaScriptCore.framework */,
 				A7F1D3911C8ADDEF00A14E91 /* JavaScriptCore_demo */,
 				A7F1D3901C8ADDEF00A14E91 /* Products */,
 			);
@@ -58,6 +64,7 @@
 		A7F1D3911C8ADDEF00A14E91 /* JavaScriptCore_demo */ = {
 			isa = PBXGroup;
 			children = (
+				A7F1D3A91C8AE0AC00A14E91 /* Test.html */,
 				A7F1D3951C8ADDEF00A14E91 /* AppDelegate.h */,
 				A7F1D3961C8ADDEF00A14E91 /* AppDelegate.m */,
 				A7F1D3981C8ADDEF00A14E91 /* ViewController.h */,
@@ -136,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F1D3AA1C8AE0AC00A14E91 /* Test.html in Resources */,
 				A7F1D3A21C8ADDEF00A14E91 /* LaunchScreen.storyboard in Resources */,
 				A7F1D39F1C8ADDEF00A14E91 /* Assets.xcassets in Resources */,
 				A7F1D39D1C8ADDEF00A14E91 /* Main.storyboard in Resources */,

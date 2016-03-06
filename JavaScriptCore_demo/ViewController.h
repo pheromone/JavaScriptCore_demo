@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic,strong) UIWebView * webView;
+@property (nonatomic,weak) JSContext * context;
 @end
 
